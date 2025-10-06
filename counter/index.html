@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Counter</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Count Anything</h1>
+        <h1 id="count-el">0</h1> 
+    </div>
+    <div class="buttons">
+        <button id="inc-el" onclick="increase()">Increase</button>
+        <button id="save-el" onclick="save()">Save</button>
+        <button id="dec-el" onclick="decrease()">Decrease</button>
+        <button id="rest-el" onclick="reset()">Reset</button>
+        <button onclick="resPrev()">Reset Previous</button>
+    </div>
+    <p id="show">Previous Count:-  </p>
+
+    <script src="script.js"></script>
+</body>
+</html>
